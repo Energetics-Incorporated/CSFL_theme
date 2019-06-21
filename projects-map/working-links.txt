@@ -1,0 +1,48 @@
+<area shape="circle" coords="1427,774,12" href="Projects/Summaries#CarbonNet" alt="CarbonNet Project" class="CarbonNet">
+<area shape="circle" coords="1403,767,12" href="Projects/Summaries#CO2CRCOtwayStage2" alt="CO2CRC Otway Project, Stage 2" class="CO2CRCOtwayStage2">
+<area shape="circle" coords="1375,767,12" href="Projects/Summaries#CO2CRCOtway" alt="CO2CRC Otway Project" class="CO2CRCOtway">
+<area shape="circle" coords="1301,740,12" href="Projects/Summaries#SouthWestHub" alt="South West Hub Geosequestration Project" class="SouthWestHub">
+<area shape="circle" coords="1290,691,12" href="Projects/Summaries#Gorgon" alt="Gorgon CO2 Injection Project" class="Gorgon">
+<area shape="circle" coords="1385,325,12" href="Projects/Summaries#CO2Separation" alt="CO2 Separation from Pressurized Gas Stream" class="CO2Separation">
+<area shape="circle" coords="1328,346,12" href="Projects/Summaries#DrySolid" alt="Dry Solid Sorbent CO2 Capture Project" class="DrySolid">
+<area shape="circle" coords="1270,315,12" href="Projects/Summaries#RegionalOpps" alt="Regional Opportunities for CO2 Capture and Storage in China (Project Completed)" class="RegionalOpps">
+<area shape="circle" coords="1253,359,12" href="Projects/Summaries#ChinaCoalbedMethane" alt="China Coalbed Methane Technology/CO2 Sequestration Project (Project Completed)" class="ChinaCoalbedMethane">
+<area shape="circle" coords="1226,359,12" href="Projects/Summaries#Jingbian" alt="Jingbian CCS Project" class="Jingbian">
+<area shape="circle" coords="998,446,12" href="Projects/Summaries#OxyCombustion" alt="Oxy-Combustion of Heavy Liquid Fuels Project" class="OxyCombustion">
+<area shape="circle" coords="971,447,12" href="Projects/Summaries#Uthmaniyah" alt="Uthmaniyah CO2-EOR Demonstration Project" class="Uthmaniyah">
+<area shape="circle" coords="983,421,12" href="Projects/Summaries#CarbonCapture" alt="Carbon Capture and Utilization Project / CO2 Network Project" class="CarbonCapture">
+<area shape="circle" coords="811,346,12" href="Projects/Summaries#Dynamis" alt="Dynamis (Project Completed)" class="Dynamis">
+<area shape="circle" coords="803,322,12" href="Projects/Summaries#CGSEurope" alt="CGS Europe Project (Project Completed)" class="CGSEurope">
+<area shape="circle" coords="823,295,12" href="Projects/Summaries#Ketzin" alt="Ketzin Test Site Project (formerly CO2 SINK) (Project Completed)" class="Ketzin">
+<area shape="circle" coords="797,297,12" href="Projects/Summaries#CCSRotterdam" alt="CCS Rotterdam" class="CCSRotterdam">
+<area shape="circle" coords="796,273,12" href="Projects/Summaries#RotterdamOpslag" alt="Rotterdam Opslag en Afvang Demonstratieproject (ROAD)" class="RotterdamOpslag">
+<area shape="circle" coords="810,252,12" href="Projects/Summaries#Norcem" alt="Norcem CO2 Capture Project" class="Norcem">
+<area shape="circle" coords="837,252,12" href="Projects/Summaries#CASTOR" alt="CASTOR (Project Completed)" class="C4STOR">
+<area shape="circle" coords="844,206,12" href="Projects/Summaries#CO2Field" alt="CO2 Field Lab Project" class="CO2Field">
+<area shape="circle" coords="817,218,12" href="Projects/Summaries#CO2Technology" alt="CO2 Technology Centre Mongstad Project (formerly European CO2 Technology Centre Mongstad Project)" class="CO2Technology">
+<area shape="circle" coords="788,236,12" href="Projects/Summaries#CO2STORE" alt="CO2STORE (Project Completed)" class="CO2STORE">
+<area shape="circle" coords="758,266,12" href="Projects/Summaries#DemonstrationofOxyfuel" alt="Demonstration of an Oxyfuel Combustion System (Project Completed)" class="DemonstrationofOxyfuel">
+<area shape="circle" coords="766,293,12" href="Projects/Summaries#ENCAP" alt="ENCAP (Project Completed)" class="ENCAP">
+<area shape="circle" coords="776,318,12" href="Projects/Summaries#CO2GeoNet" alt="CO2 GeoNet" class="CO2GeoNet">
+<area shape="circle" coords="779,346,12" href="Projects/Summaries#Lacq" alt="Lacq CO2 Capture and Storage Project" class="Lacq">
+<area shape="circle" coords="789,422,12" href="Projects/Summaries#Geologic" alt="Geologic CO2 Storage Assurance at in Salah, Algeria (project located in Algeria)" class="Geologic">
+<area shape="circle" coords="330,377,12" href="Projects/Summaries#AirProducts" alt="Air Products CO2 Capture from Hydrogen Facility Project" class="AirProducts">
+<area shape="circle" coords="356,384,12" href="Projects/Summaries#FrioProject" alt="Frio Project (Project Completed)" class="FrioProject">
+<area shape="circle" coords="385,384,12" href="Projects/Summaries#SECARB" alt="SECARB Early Test at Cranfield Project" class="SECARB">
+<area shape="circle" coords="406,401,12" href="Projects/Summaries#SECARBPhaseIII" alt="SECARB Phase III Anthropogenic Test and Plant Barry CCS Project" class="SECARBPhaseIII">
+<area shape="circle" coords="412,376,12" href="Projects/Summaries#Kemper" alt="Kemper County Energy Facility" class="Kemper">
+<area shape="circle" coords="452,356,12" href="Projects/Summaries#CO2CapturePhase4" alt="CO2 Capture Project, Phase 4" class="CO2CapturePhase4">
+<area shape="circle" coords="424,349,12" href="Projects/Summaries#CO2CapturePhase3" alt="CO2 Capture Project - Phase 3 (Project Completed)" class="CO2CapturePhase3">
+<area shape="circle" coords="397,346,12" href="Projects/Summaries#CO2CapturePhase2" alt="CO2 Capture Project - Phase 2 (Project Completed)" class="CO2CapturePhase2">
+<area shape="circle" coords="462,304,12" href="Projects/Summaries#CANMET" alt="CANMET Energy Technology Centre (CETC) R&amp;D Oxyfuel Combustion for CO2 Capture" class="CANMET">
+<area shape="circle" coords="429,317,12" href="Projects/Summaries#MRCSP" alt="MRCSP Development Phase Project" class="MRCSP">
+<area shape="circle" coords="403,316,12" href="Projects/Summaries#IllinoisIndustrial" alt="Illinois Industrial Carbon Capture and Storage Project" class="llinoisIndustrial">
+<area shape="circle" coords="378,311,12" href="Projects/Summaries#IllinoisBasin" alt="Illinois Basin – Decatur Project" class="IllinoisBasin">
+<area shape="circle" coords="336,316,12" href="Projects/Summaries#RegionalCarbon" alt="Regional Carbon Sequestration Partnerships" class="RegionalCarbon">
+<area shape="circle" coords="286,168,11" href="Projects/Summaries#FortNelson" alt="Fort Nelson Carbon Capture and Storage Project" class="FortNelson">
+<area shape="circle" coords="292,194,13" href="Projects/Summaries#Zama" alt="Zama Acid Gas EOR, CO2 Sequestration, and Monitoring Project" class="Zama">
+<area shape="circle" coords="351,220,11" href="Projects/Summaries#AlbertaCarbonTrunk" alt="Alberta Carbon Trunk Line" class="AlbertaCarbonTrunk">
+<area shape="circle" coords="302,244,11" href="Projects/Summaries#AlbertaCoalBed" alt="Alberta Enhanced Coal-Bed Methane Recovery Project (Project Completed)" class="AlbertaCoalBed">
+<area shape="circle" coords="330,257,13" href="Projects/Summaries#IEAGHGWeyburn" alt="IEA GHG Weyburn-Midale CO2 Monitoring and Storage Project (Project Completed)" class="IEAGHGWeyburn">
+<area shape="circle" coords="369,246,12" href="Projects/Summaries#SaskBoundaryDam3" alt="SaskPower Integrated CCS Demonstration Project at Boundary Dam Unit 3" class="SaskBoundaryDam3">
+<area shape="circle" coords="323,217,11" href="Projects/Summaries#Quest" alt="Quest CCS Project" class="Quest">

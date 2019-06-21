@@ -1,0 +1,298 @@
+<p><a href="Members">Learn about members and their participation.</a></p>
+
+<style type="text/css">
+
+.jqvmap-label {
+    background: #292929 none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #ffffff;
+    display: none;
+    font-family: sans-serif,Verdana;
+    font-size: smaller;
+    padding: 3px;
+    position: absolute;
+}
+.jqvmap-zoomin, .jqvmap-zoomout {
+    background: #000000 none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #ffffff;
+    cursor: pointer;
+    height: 10px;
+    left: 20px;
+    line-height: 10px;
+    padding: 3px;
+    position: absolute;
+    text-align: center;
+    width: 10px;
+}
+.jqvmap-zoomin {
+    top: 10px;
+}
+.jqvmap-zoomout {
+    top: 30px;
+}
+.jqvmap-region {
+    cursor: pointer;
+}
+.jqvmap-ajax_response {
+    height: 500px;
+    width: 100%;
+}
+.jqvmap-zoomin, .jqvmap-zoomout {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 3px;
+    box-shadow: 0 0 8px #000000;
+    color: #000;
+    cursor: pointer;
+    font-size: 26px;
+    height: 23px;
+    line-height: 14px;
+    margin: 4px 0;
+    padding: 3px;
+    position: absolute;
+    text-align: center;
+    width: 23px;
+}
+.jqvmap-zoomout {
+    margin: 13px 0;
+}
+#legend { border: 1px dashed #cccccc;  display: inline-block; overflow: hidden;padding: 10px; width: 32%;}
+#legend td, #legend th{padding:5px;border:1px solid #ccc;font-size:12px;font-weight:bold;}
+</style>
+
+<div id="vmap" style="width: 100%; height: 600px;"></div>
+<div id="legend">
+    <table cellpadding="5" cellspacing="0" width="100%" align="right">
+        <tr>
+            <td style="width:20px;height:20px;background-color:#1D94BD;">&nbsp;</td>
+            <td>Members of the CSLF</td>
+        </tr>
+        <tr>
+            <td style="width:20px;height:20px;background-color:#0AB6B1;">&nbsp;</td>
+            <td>Members of the European Commission not individually represented in the CSLF</td>
+        </tr>
+    </table>
+</div>
+
+
+
+	<script type="text/javascript" src="sites/all/themes/CSFL_theme/js/jquery.vmap.js"></script>
+    <script type="text/javascript" src="sites/all/themes/CSFL_theme/js/maps/jquery.vmap.world.js" charset="utf-8"></script>
+    
+    <script type="text/javascript">
+    jQuery(document).ready(function() {
+		
+		var activeNations = new Array("au","br","ca","cn","fr","de","gr","in","it","jp","kr","mx","nl","nz","no","pl","ru","sa","rs","za","ae","gb","us");
+ 
+	  jQuery('#vmap').vectorMap({ 
+	  	map: 'world_en',
+		backgroundColor: null,
+		borderColor: '#777777',
+        borderWidth: 1,
+        color: '#C8EBF7', 		
+		hoverColor: '#11566C',
+		selectedColor: null,
+		//colors: highlightedCountries,
+		colors: {
+			
+			ai: '#0AB6B1',
+			be: '#0AB6B1',
+			bg: '#0AB6B1',
+			hr: '#0AB6B1',
+			cy: '#0AB6B1',			
+			dk: '#0AB6B1',
+			ee: '#0AB6B1',
+			fi: '#0AB6B1',
+			hu: '#0AB6B1',
+			ie: '#0AB6B1',
+			lv: '#0AB6B1',
+			li: '#0AB6B1',
+			lu: '#0AB6B1',
+			mt: '#0AB6B1',
+			pt: '#0AB6B1',
+			sk: '#0AB6B1',
+			si: '#0AB6B1',
+			es: '#0AB6B1',
+			se: '#0AB6B1',
+
+			
+			// end EU
+			au:'#1D94BD',
+			br:'#1D94BD',
+			ca:'#1D94BD',
+			cn:'#1D94BD',
+			cz:'#1D94BD',
+			fr:'#1D94BD',
+			de:'#1D94BD',
+			gr:'#1D94BD',
+			in:'#1D94BD',
+			it:'#1D94BD',
+			jp:'#1D94BD',
+			kr:'#1D94BD',
+			mx:'#1D94BD',
+			nl:'#1D94BD',
+			nz:'#1D94BD',
+			no:'#1D94BD',
+			pl:'#1D94BD',
+			ro:'#1D94BD',
+			ru:'#1D94BD',
+			sa:'#1D94BD',
+			rs:'#1D94BD',
+			za:'#1D94BD',
+			ae:'#1D94BD',
+			gb:'#1D94BD',
+			us:'#1D94BD'
+
+		},
+		showTooltip: true,
+		onLabelShow: function(event, label, code)
+		
+		{
+			if (
+				code=='au'||
+				code=='br'||
+				code=='ca'||
+				code=='cn'||
+				code=='cz'||
+				code=='fr'||
+				code=='de'||
+				code=='gr'||
+				code=='in'||
+				code=='it'||
+				code=='jp'||
+				code=='kr'||
+				code=='mx'||
+				code=='nl'||
+				code=='nz'||
+				code=='no'||
+				code=='pl'||
+				code=='ro'||
+				code=='ru'||
+				code=='sa'||
+				code=='rs'||
+				code=='za'||
+				code=='ae'||
+				code=='gb'||
+				code=='us'
+				)
+			{
+				 label.text([code].name);
+			}
+			
+			else if (
+				code=='ai'||
+				code=='be'||
+				code=='bg'||
+				code=='hr'||
+				code=='cy'||				
+				code=='dk'||
+				code=='ee'||
+				code=='fi'||
+				code=='hu'||
+				code=='ie'||
+				code=='lv'||
+				code=='li'||
+				code=='lu'||
+				code=='mt'||
+				code=='pt'||
+				code=='sk'||
+				code=='si'||
+				code=='es'||
+				code=='se'
+
+				) {
+				label.html('European Commission, including ' + label.text());
+				}
+			
+			 else {
+				event.preventDefault();
+			}
+		},
+		onRegionOver:function(event, code, region){
+			if(activeNations.indexOf(code)===-1){
+				event.preventDefault();
+				}
+			},
+		onRegionClick: function (event, code, region) {
+        switch (code) {
+			case "au":window.location = "Members/Australia";
+				break;
+			case "br":window.location = "Members/Brazil";
+				break;
+			case "ca":window.location = "Members/Canada";
+				break;
+			case "cn":window.location = "Members/China";
+				break;
+			case "fr":window.location = "Members/France";
+				break;
+			/*case "de":window.location = "Members/Germany";
+				break;*/
+			case "gr":window.location = "Members/Greece";
+				break;
+			/*case "in":window.location = "Members/India";
+				break;*/
+			case "it":window.location = "Members/Italy";
+				break;
+			case "jp":window.location = "Members/Japan";
+				break;
+			case "kr":window.location = "Members/Korea";
+				break;
+			case "mx":window.location = "Members/Mexico";
+				break;
+			case "nl":window.location = "Members/Netherlands";
+				break;
+			case "nz":window.location = "Members/New-Zealand";
+				break;
+			case "no":window.location = "Members/Norway";
+				break;
+			case "pl":window.location = "Members/Poland";
+				break;
+			/*case "ro":window.location = "Members/Romania";
+				break;*/
+			case "ru":window.location = "Members/Russia";
+				break;
+			case "sa":window.location = "Members/Saudi-Arabia";
+				break;
+			/*case "rs":window.location = "Members/Serbia";
+				break;*/
+			case "za":window.location = "Members/South-Africa";
+				break;
+			/*case "ae":window.location = "Members/United-Arab-Emirates";
+				break;*/
+			case "gb":window.location = "Members/United-Kingdom";
+				break;
+			case "us":window.location = "Members/United-States";
+				break;
+			case "ai":window.location = "Members/European-Commission";break;
+			case "be":window.location = "Members/European-Commission";break;
+			case "bg":window.location = "Members/European-Commission";break;
+			case "hr":window.location = "Members/European-Commission";break;
+			case "cy":window.location = "Members/European-Commission";break;
+			//case "cz":window.location = "Members/European-Commission";break;
+			case "dk":window.location = "Members/European-Commission";break;
+			case "ee":window.location = "Members/European-Commission";break;
+			case "fi":window.location = "Members/European-Commission";break;
+			case "hu":window.location = "Members/European-Commission";break;
+			case "ie":window.location = "Members/European-Commission";break;
+			case "lv":window.location = "Members/European-Commission";break;
+			case "li":window.location = "Members/European-Commission";break;
+			case "lu":window.location = "Members/European-Commission";break;
+			case "mt":window.location = "Members/European-Commission";break;
+			case "pt":window.location = "Members/European-Commission";break;
+			case "sk":window.location = "Members/European-Commission";break;
+			case "si":window.location = "Members/European-Commission";break;
+			case "es":window.location = "Members/European-Commission";break;
+			case "se":window.location = "Members/European-Commission";break;
+
+				}
+				
+			}
+		
+		});		
+		//var fc = '#777777'; // you'll need this if you'll want to change the whole group color someday
+		//jQuery('#vmap').vectorMap('set', 'colors', {au: fc, mx: fc, ca: fc});	
+		   
+    });
+	
+
+    </script>

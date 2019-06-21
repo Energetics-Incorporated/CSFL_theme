@@ -1,0 +1,88 @@
+<style type="text/css">
+/* -- about page side nav --*/
+
+#block-menu-block-1.block-menu-block li.menu-mlid-607{background:url(/sites/all/themes/CSFL_theme/images/about-link-bg2.jpg) no-repeat 0 0;}
+#block-menu-block-1.block-menu-block li.menu-mlid-609{background:url(/sites/all/themes/CSFL_theme/images/about-link-bg1.jpg) no-repeat 0 0;}
+#block-menu-block-1.block-menu-block li.menu-mlid-610{background:url(/sites/all/themes/CSFL_theme/images/about-link-bg3.jpg) no-repeat 0 0;}
+
+</style>
+
+
+/* -- News page --*/
+
+<style type="text/css">
+.views-row.views-row-3::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+#membersMap {padding: 40px 0;}
+.region-homepage-members-map .block-block {display:inline-block;width:70%;vertical-align:top;}
+.region-homepage-members-map .content, 
+.region-homepage-members-map h2{text-align:center;}
+.region-homepage-members-map h2 {font-size:32px;color:#383838;}
+div#block-views-testimonials-block {
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+	text-align:left;
+	
+}
+.view-testimonials .views-field.views-field-field-photo,
+.view-testimonials .views-field.views-field-field-image {max-width:100px;float:right;}
+.view-testimonials .views-field.views-field-field-source {font-style:normal;font-family: "Roboto Condensed", Helvetica, Arial, sans-serif; line-height: 1.2; font-weight: bold; margin-top: 10px;}
+.block-views .view-testimonials .views-row{border:1px solid #D6D6D6;border-radius:5px;
+background:url(/sites/all/themes/CSFL_theme/images/quote.png) no-repeat 5px 10px, url(/sites/all/themes/CSFL_theme/images/quote-bottom.png) no-repeat 98% 98%;
+text-align:left;padding:55px 35px;
+font-family:Georgia, serif;color:#9F9F9F;font-style:italic;font-size:16px;margin:20px 0;}
+blockquote, q {border:0;border-radius:0;background:none;background-color:transparent;padding:0;}
+
+.region-homepage-st-third {width: 100%;}
+.region-homepage-st-third .content{
+    display: table;
+    width: 72%;
+    margin: auto;
+}
+.region-homepage-st-third .content > .borderBox {
+    border: 1px solid #6D615E;
+    border-radius: 1px;
+    display: block;
+    width: 48%;
+    vertical-align: top;
+    padding: 15px 20px;
+    float: left;
+    margin: 1%;
+    min-height: 215px;
+}
+.mc-field-group {border:0;padding: 15px 0;display: block;}
+input#mce-EMAIL { width: 80%;}
+form #mc-embedded-subscribe.emailSubscribeBtn {width:20%;}
+.region-homepage-st-third h3 {margin-bottom: 20px;}
+.region-homepage-st-third .content > .borderBox:nth-child(3) {
+    clear: both;
+}
+#footer input#mce-EMAIL {
+    width: 80%;
+}
+#promo {
+    margin-bottom: 10px;
+}
+.region.region-promotion-upper-right {margin-right:20px;}
+.region.region-promotion-upper-right a::after {
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    content: none;
+    height: 0;
+    position: initial;
+    right: -7px;
+    top: 0;
+    width: 0;
+}
+.views-field.views-field-field-publication-image{max-width:30%;float:right;margin:10px 0 10px 10px;}
+.views-field.views-field-field-publication-image:after {content:"";display:block;clear:both;}
+#block-views-clone-of-ccs-in-the-news-block {clear:left;}
+.Newspage #block-views-clone-of-ccs-in-the-news-block .views-field {margin: 0;}
+.Newspage #block-views-clone-of-ccs-in-the-news-block .views-row {border-bottom: 1px solid #ccc;}
+figure.image {margin:15px;}
+</style>
